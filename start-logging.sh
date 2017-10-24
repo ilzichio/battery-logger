@@ -1,6 +1,6 @@
 #!/bin/bash
-
-logs_file=/home/rv/projects/programming/scripts/bash/battery-logger/logs
+dir=$(pwd)
+logs_file=$dir/logs
 echo -n "" > logs
 
 log ()	#$1 - start per. $2 - end per. $3 - time passed
